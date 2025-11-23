@@ -144,7 +144,8 @@
 
 /* ===== LOTS ===== */
 .lots {
-  padding: 0 50px;
+  padding: 0 50px 0 44px !important;
+  margin-left: -20px !important;
   margin-bottom: 120px;
 }
 
@@ -225,7 +226,8 @@
   display: grid;
   grid-template-columns: 430px 1fr;
   gap: 25px;
-  padding: 0 50px;
+   padding: 0 50px 0 20px !important;
+  margin-left: -20px !important;
 }
 
 .about__logo {
