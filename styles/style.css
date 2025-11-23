@@ -49,11 +49,12 @@
 }
 
 .header__address {
-  justify-self: start; /* Изменено с end на start - выравнивание по левому краю */
+  justify-self: start;
   max-width: 240px;
   font-style: normal;
   line-height: 1.35;
-  text-align: left; /* Текст по левому краю */
+  text-align: left;
+  margin-left: 10px; /* Сдвигаем адрес вправо на 10px */
 }
 
 .address a {
@@ -218,7 +219,7 @@
   display: grid;
   grid-template-columns: 10fr 19fr;
   grid-template-rows: 1fr 2fr;
-  padding: 165px 24px 0 24px; /* Верх 165px (было 150px) - сдвинули на 15px ниже */
+  padding: 165px 24px 0 24px;
   height: 600px;
 }
 
@@ -241,6 +242,7 @@
 
 .about__logo {
   align-self: center;
+  margin-left: 10px; /* Сдвигаем круг с логотипом вправо на 10px */
 }
 
 .about__logo-circle {
@@ -256,6 +258,8 @@
 .about__logo-image {
   max-width: 140px;
 }
+
+
 
 /* ===== FOOTER ===== */
 .footer {
@@ -304,4 +308,14 @@
 
 .footer__social-icon {
   width: 48px;
+}
+/* ФИКС ДЛЯ СДВИГА */
+.about__logo {
+  position: relative;
+  left: 15px !important;
+}
+
+.header__address {
+  position: relative;
+  left: 15px !important;
 }
