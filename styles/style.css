@@ -1,13 +1,13 @@
 .header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
   padding: 0 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .header-nav {
-  display: flex;
   padding: 50px 0 0 50px;
+  display: flex;
   gap: 45px;
 }
 
@@ -19,41 +19,42 @@
 .header-img-logo {
   max-width: 145px;
   position: absolute;
-  bottom: 90.2%;
   left: 50%;
+  bottom: 90.2%;
   transform: translateX(-50%);
 }
 
 .header-address {
   white-space: normal;
-  padding: 95px 80px 100px 0;
   text-align: left;
+  padding: 95px 80px 100px 0;
 }
 
 .cover {
+  color: #fff;
+  height: 757px;
   display: flex;
   flex-direction: column;
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url("../images/cover.jpg");
-  background-repeat: no-repeat;
   background-size: cover;
-  height: 757px;
-  color: #fff;
+  background-repeat: no-repeat;
 }
 
 .cover-text {
   flex: 1;
-  padding: 15px 20px 0 50px;
   font-size: 100px;
   letter-spacing: 30px;
   display: flex;
   flex-direction: column;
   gap: 20px;
+  padding: 15px 20px 0 50px;
 }
 
 .cover-top {
   padding-top: 165px;
 }
+
 .cover-center {
   text-align: center;
 }
@@ -63,27 +64,24 @@
 }
 
 .description {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  justify-self: end;
-  padding: 50px;
   font-size: 22px;
   word-spacing: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-self: end;
+  padding: 50px;
 }
 
 .cover-button {
-  background: none;
   color: inherit;
+  background: none;
   border: none;
   padding: 12px;
 }
 
 .cover-button-border {
-  border-top: 1px solid white;
-  border-right: 1px solid white;
-  border-bottom: 1px solid white;
-  border-left: 1px solid white;
+  border: 1px solid white;
 }
 
 .lots {
@@ -91,8 +89,8 @@
 }
 
 .lots h2 {
-  font-style: bold;
   font-size: 40px;
+  font-style: bold;
   padding: 0 0 27px 40px;
 }
 
@@ -101,93 +99,92 @@
   gap: 25px;
   padding: 0 0 30px 0;
 }
+
 .lots-card {
+  color: white;
+  opacity: 1;
+  width: 334px;
+  height: 596px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 334px;
-  height: 596px;
-  opacity: 1;
-  color: white;
 }
 
 .lots-card h3,
 .lots-card p {
-  padding: 48px 40px 48px 40px;
   font-size: 20px;
+  padding: 48px 40px 48px 40px;
 }
 
 .lots-all-cards h3 {
-  font-style: bold;
   font-size: 22px;
-  text-transform: uppercase;
+  font-style: bold;
   text-decoration: underline;
+  text-transform: uppercase;
 }
 
 .lots-first-card {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url("../images/card-lot-01.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
   background-size: 150% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .lots-second-card {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url("../images/card-lot-02.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
   background-size: 150% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .lots-third-card {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url("../images/card-lot-03.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
   background-size: 150% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .lots-seemore {
-  padding: 0 0 0 44px;
   font-size: 20px;
+  padding: 0 0 0 44px;
 }
 
 .about {
+  height: 600px;
   display: grid;
   grid-template-columns: 10fr 19fr;
   grid-template-rows: 1fr 2fr;
   padding: 150px 24px 0 24px;
-  height: 600px;
 }
 
 .about h2 {
-  grid-column: 2/3;
-  align-self: center;
   font-size: 40px;
   font-style: bold;
+  grid-column: 2/3;
+  align-self: center;
 }
 
 .about-text {
+  font-size: 20px;
   grid-column: 2/3;
   grid-row: 2/3;
   display: flex;
   flex-direction: column;
   gap: 20px;
-  font-size: 20px;
 }
 
 .about-round-logo {
-
-  align-self: center;
   width: 240px;
   height: 240px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   background-color: #000;
   border-radius: 50%;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
 }
 
 .about-logo {
@@ -195,21 +192,21 @@
 }
 
 .about-round {
-  display: flex;
-  align-items: center;
-  background-color: black;
   width: 220px;
   height: 220px;
+  background-color: black;
   border-radius: 50%;
+  display: flex;
+  align-items: center;
   padding: 35px 0 0 35px;
   align-self: center;
   justify-self: center;
 }
 
 .footer {
-  padding: 300px 50px 80px 50px;
   display: flex;
   justify-content: space-between;
+  padding: 300px 50px 80px 50px;
 }
 
 .footer-links {
@@ -222,11 +219,11 @@
 }
 
 .footer-address {
-  padding: 0;
   text-align: left;
+  padding: 0;
 }
 
 .footer-nav {
-  text-align: center;
   list-style: none;
+  text-align: center;
 }
