@@ -1,10 +1,9 @@
 /* ===== HEADER ===== */
-/* ===== HEADER ===== */
 .header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 92px 50px; /* Возвращаем нормальные отступы */
+  padding: 92px 50px;
   position: relative;
 }
 
@@ -50,11 +49,11 @@
 }
 
 .header__address {
-  justify-self: end;
+  justify-self: start; /* Изменено с end на start - выравнивание по левому краю */
   max-width: 240px;
   font-style: normal;
   line-height: 1.35;
-  text-align: right;
+  text-align: left; /* Текст по левому краю */
 }
 
 .address a {
@@ -70,6 +69,7 @@
   background: url("../images/cover.jpg") center/cover no-repeat;
   height: 757px;
   color: #fff;
+  margin-top: 15px; /* Сдвигаем cover вниз на 15px */
 }
 
 .overlay {
@@ -134,7 +134,7 @@
 
 /* ===== LOTS ===== */
 .lots {
-  padding: 180px 24px 0 24px;
+  padding: 195px 24px 0 24px; /* Верх 195px (было 180px) - сдвинули на 15px ниже */
 }
 
 .lots__heading {
@@ -191,7 +191,6 @@
   line-height: 1.2;
 }
 
-/* ВОЗВРАЩАЕМ затемнение для карточек */
 .card_type_film {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url("../images/card-lot-01.jpg") center/cover no-repeat;
@@ -219,7 +218,7 @@
   display: grid;
   grid-template-columns: 10fr 19fr;
   grid-template-rows: 1fr 2fr;
-  padding: 150px 24px 0 24px;
+  padding: 165px 24px 0 24px; /* Верх 165px (было 150px) - сдвинули на 15px ниже */
   height: 600px;
 }
 
@@ -260,7 +259,7 @@
 
 /* ===== FOOTER ===== */
 .footer {
-  padding: 300px 50px 80px 50px;
+  padding: 315px 50px 80px 50px; /* Верх 315px (было 300px) - сдвинули на 15px ниже */
   display: flex;
   justify-content: space-between;
 }
